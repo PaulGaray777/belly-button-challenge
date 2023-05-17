@@ -38,6 +38,8 @@ const optionChanged = () => {
       },
     ];
     Plotly.newPlot("bar-chart", bar); // plotting bar chart
+    // For information on creating line charts, refer to:
+    // https://plotly.com/javascript/
 
     // create the bubble chart data
     const bubbles = [
@@ -69,6 +71,8 @@ const optionChanged = () => {
     };
 
     Plotly.newPlot("bubble-chart", bubbles, bubbleLayout); // plotting bubble chart
+    // For information on creating line charts, refer to:
+    // https://plotly.com/javascript/
     
 // BONUS
 let age = information.age;
@@ -107,6 +111,8 @@ const plotGaugeChart = (age) => {
 
   const layoutgauge = { width: 600, height: 500, margin: { t: 0, b: 0 } };
   Plotly.react("gauge-chart", gauge, layoutgauge);
+  // For information on creating line charts, refer to:
+  // https://plotly.com/javascript/
 };
 
 // updating the gauge chart 
